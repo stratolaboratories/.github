@@ -11,7 +11,6 @@ You are responsible for implementing a **Material-UI Table** in the existing `Pr
   - **Lab**
   - **Status**
   - **Material**
-- Implement pagination for better data handling.
 - Handle loading states and API errors properly.
 
 ## Steps to Complete
@@ -55,16 +54,12 @@ Before integrating the API into the frontend, confirm that the backend is return
 - Implement a `Table` with appropriate `TableCell` values.
 - Ensure proper alignment and readability.
 
-### Step 5: Implement Pagination
-- Use `TablePagination` to handle large data sets.
-- Allow users to navigate between pages.
-
-### Step 6: Test and Validate
+### Step 5: Test and Validate
 - Start the backend and ensure `/print-jobs/` is accessible.
 - Verify the table correctly displays fetched data.
 - Check pagination, error handling, and UI responsiveness.
 
-### Step 7: Create a Pull Request
+### Step 6: Create a Pull Request
 - Once the feature is implemented, push the branch to the repository:
   ```sh
   git add .
