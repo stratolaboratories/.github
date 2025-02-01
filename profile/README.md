@@ -14,10 +14,10 @@ This organization consists of multiple repositories to manage different parts of
 The core **Django backend** that powers the platform.  
 
 ### 🔹 **Frontend Dashboards (React)**
-📌 **[`user-dashboard`](https://github.com/stratolaboratories/user-dashboard)**  
+📌 **[`user-dash-mui`](https://github.com/stratolaboratories/user-dash-mui)**  
 User-facing dashboard for submitting and tracking print jobs.  
 
-📌 **[`maker-dashboard`](https://github.com/stratolaboratories/maker-dashboard)**  
+📌 **[`maker-dash-mui`](https://github.com/stratolaboratories/maker-dash-mui)**  
 Maker-facing dashboard for managing and fulfilling print jobs.  
 
 ---
@@ -36,11 +36,11 @@ cd strato-server
 
 ### **Frontend (`user-dashboard` or `maker-dashboard`)**
 ```bash
-git clone https://github.com/stratolaboratories/user-dashboard.git
+git clone https://github.com/stratolaboratories/user-dash-mui.git
 cd user-dashboard
 ```
 ```bash
-git clone https://github.com/stratolaboratories/maker-dashboard.git
+git clone https://github.com/stratolaboratories/maker-dash-mui.git
 cd maker-dashboard
 ```
 
