@@ -73,11 +73,11 @@ This roadmap outlines the step-by-step plan for building the **Strato 3D Printin
 
 ---
 
+
 ## **Bug Log**
-| **Problem** | **Details** | **Status** |
-|------------|------------|
-|  **Post registration redirect** |Tokens are only rec on login, redit to login after registering|⏳ Not Fixed |
 
+| **Problem**                     | **Details**                                         | **Status**   |
+|----------------------------------|-----------------------------------------------------|--------------|
+| Post-registration redirect      | Tokens are only received on login; redirects to login after registration. | ⏳ Not Fixed  |
 
----
 
