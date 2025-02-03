@@ -27,10 +27,10 @@ This roadmap outlines the step-by-step plan for building the **Strato 3D Printin
 
 ---
 
-## **📌 Phase 3: Lab & Printer Management (✅ Complete)**
+## **📌 Phase 3: Lab & Printer Management (🔨 In Progress)**
 | **Task** | **Status** | **Details** |
 |------------|------------|------------|
-| **Create `Lab` & `Printer` models + migrations** | 🔨 In Progress | Define structure for labs & printers |
+| **Create `Lab` & `Printer` models + migrations** | ✅ Complete | Define structure for labs & printers |
 | **Build API for makers to manage printers (`add/`, `update/`, `list/`)** | 🔨 In Progress| Makers add/update printers |
 | **Integrate frontend (`LabSelect.tsx`, `PrinterList.tsx`)** | 🔨 In Progress | Makers manage printers via UI |
 | **Update `PrintJob` submission to auto-assign printers** | ⏳ Next | Jobs get assigned to available printers |
