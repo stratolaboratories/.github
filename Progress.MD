@@ -66,41 +66,10 @@ This roadmap outlines the step-by-step plan for building the **Strato 3D Printin
 | **Phase** | **Target Completion** |
 |------------|------------|
 | ✅ **Phase 1: Authentication** | ✅ Completed |
-| 🔥 **Phase 2: Print Job Submission** | 🟡 **This Week** |
-| ⚡ **Phase 3: Lab & Printer Management** | 🟡 **Next Week** |
-| ⚙️ **Phase 4: Maker Job Management** | 🟡 **2 Weeks from Now** |
+| 🔥 **Phase 2: Print Job Submission** | ✅ Completed |
+| ⚡ **Phase 3: Lab & Printer Management** | 🟡 **This Week**|
+| ⚙️ **Phase 4: Maker Job Management** | 🟡 **Next Week** |
 | 🔔 **Phase 5: Testing & Notifications** | 🟡 **Final Week** |
 
 ---
 
-## **📌 Contribution Guidelines**
-### **Branching Strategy**
-| **Branch** | **Purpose** |
-|------------|------------|
-| `main` | ✅ **Stable version** of the project |
-| `backend-dev` | 🔥 Active backend development |
-| `frontend-dev` | ⚡ Active frontend development |
-| `feature/print-jobs` | 🟡 Print job submission feature |
-| `feature/labs-printers` | 🟡 Lab & printer management |
-
-### **How to Contribute**
-1. **Create a new branch** for each feature:  
-   ```bash
-   git checkout -b feature/print-jobs
-   ```
-2. **Work on your feature** (backend, frontend, or both).
-3. **Commit & push changes**:
-   ```bash
-   git commit -m "Added print job submission API"
-   git push origin feature/print-jobs
-   ```
-4. **Open a pull request (PR)** and merge when approved.
-
----
-
-### **🚀 Next Steps**
-1️⃣ **Push this roadmap to GitHub (`README.md` or `ROADMAP.md`).**  
-2️⃣ **Start implementing `PrintJob` API (`submit/`, `history/`, `status/`).**  
-3️⃣ **Integrate API with frontend & test submission process.**  
-
-Let me know when you’re ready for the next step! 🚀🔥
