@@ -16,21 +16,21 @@ This roadmap outlines the step-by-step plan for building the **Strato 3D Printin
 
 ---
 
-## **📌 Phase 2: Print Job Submission API & Frontend (🔥 In Progress)**
+## **📌 Phase 2: Print Job Submission API & Frontend (✅ Completed)**
 | **Task** | **Status** | **Details** |
 |------------|------------|------------|
-| **Create `PrintJob` model & API (`submit/`, `history/`, `status/`)** | 🔨 In Progress | Users submit jobs & view history |
-| **Integrate with frontend (`PrintSubmit.tsx`, `PrintHistory.tsx`)** | ⏳ Next | Users submit jobs via UI |
-| **Test job submission end-to-end** | ⏳ Next | Debugging & refine API |
+| **Create `PrintJob` model & API (`submit/`, `history/`, `status/`)** | ✅ Complete | Users submit jobs & view history |
+| **Integrate with frontend (`PrintSubmit.tsx`, `PrintHistory.tsx`)** | ✅ Complete | Users submit jobs via UI |
+| **Test job submission end-to-end** | ✅ Complete | Debugging & refine API |
 
 ✅ **Goal:** Users can submit print jobs & track status from the frontend.
 
 ---
 
-## **📌 Phase 3: Lab & Printer Management (⚡ Next Week)**
+## **📌 Phase 3: Lab & Printer Management (🔨 In Progress)**
 | **Task** | **Status** | **Details** |
 |------------|------------|------------|
-| **Create `Lab` & `Printer` models + migrations** | ⏳ Next | Define structure for labs & printers |
+| **Create `Lab` & `Printer` models + migrations** | 🔨 In Progress | Define structure for labs & printers |
 | **Build API for makers to manage printers (`add/`, `update/`, `list/`)** | ⏳ Next | Makers add/update printers |
 | **Integrate frontend (`LabSelect.tsx`, `PrinterList.tsx`)** | ⏳ Next | Makers manage printers via UI |
 | **Update `PrintJob` submission to auto-assign printers** | ⏳ Next | Jobs get assigned to available printers |
