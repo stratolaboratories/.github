@@ -27,34 +27,33 @@ This roadmap outlines the step-by-step plan for building the **Strato 3D Printin
 
 ---
 
-## **📌 Phase 3: Lab & Printer Management (🔨 In Progress)**
+## **📌 Phase 3: Lab & Printer Management (✅ Complete)**
 | **Task** | **Status** | **Details** |
 |------------|------------|------------|
 | **Create `Lab` & `Printer` models + migrations** | ✅ Complete | Define structure for labs & printers |
-| **Build API for makers to manage printers (`add/`, `update/`, `list/`)** | 🔨 In Progress| Makers add/update printers |
-| **Integrate frontend (`LabSelect.tsx`, `PrinterList.tsx`)** | 🔨 In Progress | Makers manage printers via UI |
-| **Update `PrintJob` submission to auto-assign printers** | ⏳ Next | Jobs get assigned to available printers |
-| **Test auto-assignment of printers** | ⏳ Next | Debugging & finalizing logic |
+| **Build API for makers to manage printers (`add/`, `update/`, `list/`)** | ✅ Complete| Makers add/update printers |
+| **Integrate frontend (`LabSelect.tsx`, `PrinterList.tsx`)** |  ✅ Complete | Makers manage printers via UI |
+| **Users can select printers** |  ✅ Complete | Jobs get assigned to available printers |
 
-✅ **Goal:** Makers manage printers, jobs get assigned automatically.
+✅ **Goal:** Makers manage printers, jobs get assigned via print job sumbission requests
 
 ---
 
-## **📌 Phase 4: Maker Job Management (⚙️ Two Weeks from Now)**
+## **📌 Phase 4: Maker Job Management (🔨 In Progress)**
 | **Task** | **Status** | **Details** |
 |------------|------------|------------|
-| **Build API for makers to view & update jobs (`manage/`, `update/`)** | ⏳ Next | Makers track & update job statuses |
+| **Build API for makers to view & update jobs (`manage/`, `update/`)** | 🔨 In Progress | Makers track & update job statuses |
 | **Integrate frontend (`ReviewPrintRequest.tsx`)** | ⏳ Next | Makers manage print requests in UI |
 | **Test updating job status (`pending → processing → completed`)** | ⏳ Next | Ensure job flow works smoothly |
 
-✅ **Goal:** Makers fully control print job workflow.
+✅ **Goal:** Makers control print job workflow and status.
 
 ---
 
-## **📌 Phase 5: Notifications, Status Tracking & Final Testing (🔔 Final Week)**
+## **📌 Phase 5: Notifications, Status Tracking & Further Testing (⏳ Next Week)**
 | **Task** | **Status** | **Details** |
 |------------|------------|------------|
-| **Implement email/notification system (optional)** | ⏳ Next | Users get notified when jobs are ready |
+| **Implement email/notification system ** | ⏳ Next | Users get notified when jobs are ready |
 | **Improve job status tracking & reassign failed prints** | ⏳ Next | Handle job failures & retry logic |
 | **Full end-to-end testing with frontend** | ⏳ Next | Ensure everything works smoothly |
 
@@ -62,14 +61,26 @@ This roadmap outlines the step-by-step plan for building the **Strato 3D Printin
 
 ---
 
+## **📌 Phase 6: Payment Integration (⏳ Next Week)**
+| **Task** | **Status** | **Details** |
+|------------|------------|------------|
+| **Implement Stripe API to process payments** | ⏳ Next | Payment system setup |
+| **Front end integration of Stripe** | ⏳ Next | Checkout view/page |
+| **Full end-to-end testing of workflow** | ⏳ Next | Ensure everything works correctly and smoothly |
+
+✅ **Goal:** A finished MVP
+
+---
+
 ## **📌 Overall Timeline**
 | **Phase** | **Target Completion** |
 |------------|------------|
 | ✅ **Phase 1: Authentication** | ✅ Completed |
-| 🔥 **Phase 2: Print Job Submission** | ✅ Completed |
-| ⚡ **Phase 3: Lab & Printer Management** | 🟡 **This Week**|
-| ⚙️ **Phase 4: Maker Job Management** | 🟡 **Next Week** |
-| 🔔 **Phase 5: Testing & Notifications** | 🟡 **Final Week** |
+| ✅ **Phase 2: Print Job Submission** | ✅ Completed |
+| ✅ **Phase 3: Lab & Printer Management** | ✅ Completed|
+| ⚙️ **Phase 4: Maker Job Management** | 🟡 **This Week** |
+| 🔔 **Phase 5: Testing & Notifications** | 🟡 **Next Week** |
+| 💰 **Phase 6: Payment Integration** | 🟡 **Final Week** |
 
 ---
 
