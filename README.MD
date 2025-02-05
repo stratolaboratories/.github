@@ -53,7 +53,7 @@ This roadmap outlines the step-by-step plan for building the **Strato 3D Printin
 ## **📌 Phase 5: Notifications, Status Tracking & Further Testing (⏳ Next Week)**
 | **Task** | **Status** | **Details** |
 |------------|------------|------------|
-| **Implement email/notification system ** | ⏳ Next | Users get notified when jobs are ready |
+| **Implement email/notification system** | ⏳ Next | Users get notified when jobs are ready |
 | **Improve job status tracking & reassign failed prints** | ⏳ Next | Handle job failures & retry logic |
 | **Full end-to-end testing with frontend** | ⏳ Next | Ensure everything works smoothly |
 
